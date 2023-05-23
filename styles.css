@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+.latlon {
+    margin-top: 2rem;
+}
+
+.latlon input {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.latlon button {
+    margin: 1rem;
+    border: none;
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.latlon button:active {
+    background-color: rgb(153, 143, 131);
+}
+
+.info {
+    background-color: rgba(250, 235, 215, 0.4);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.weather-info {
+    background-color: rgba(255, 228, 196, 0.5);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.weather-info p {
+    margin-bottom: 1rem;
+}
